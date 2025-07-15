@@ -1,0 +1,19 @@
+1-- when we have to align items more like upar logo hai uske neeche text toh usme hume 2 class to define krne hi hai dono
+mei display :flex krna hai kyuki text ko logo ke centre krne ke liye.
+also isme bhi minimum width btate hai for justify content se space dete hai nhi toh text chipke chipke hote hai
+
+ 2 -- also jaise kbhi search bar bna rhe hai toh usme minimum width define krte hai take aise pura bar dikhe
+nhi toh chota reh jata hai
+
+3-- try to class differently in div like agr ek class mei saari images hai for same thing then un image ko 
+bhi ek class mei krokyuki overall wali se hum flex wrap aur space decide kr skte hai particular image wali se 
+hum width height decide kr skte hai
+
+4-- jo footer container humne bnaya usme agr hum flex direction ko column krenge toh usme koi bhi cheez daalenge 
+toh column wise aayega isliye usme column nhi krna hai jo hum items likhne hai specifically usme column krna hai nhi toh
+side by side 2 column nhi dikha payenge
+
+5-- Use position: relative on the outer box and position: absolute , top: 50% left: 50% , transform: translate(-50%, -50%) on the inner text box to center it perfectly over an image. (to write text over image requirements)
+
+6--when u have to make a toggle like click on one box and checkbox opens with extended content then we use type=checkbox and 
+label it with id
